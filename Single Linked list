@@ -1,0 +1,10 @@
+#ifndef spnrsll_H
+#define spnrsll_H
+#include "boolean.h"
+#include <stdio.h>
+#define Nil NULL
+#define Info(P) (P)->info
+#define Next(P) (P)->next
+#define First(L) (L).First
+#define kt(q) (q)->kt
+#define first(q) q->first
